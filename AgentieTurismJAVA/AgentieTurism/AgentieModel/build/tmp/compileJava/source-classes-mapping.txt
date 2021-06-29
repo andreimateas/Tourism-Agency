@@ -1,0 +1,14 @@
+domain/validator/Validator.java
+ domain.validator.Validator
+domain/Excursion.java
+ domain.Excursion
+domain/AgencyEmployee.java
+ domain.AgencyEmployee
+domain/Entity.java
+ domain.Entity
+domain/Reservation.java
+ domain.Reservation
+domain/validator/ReservationValidator.java
+ domain.validator.ReservationValidator
+domain/validator/ValidationException.java
+ domain.validator.ValidationException
