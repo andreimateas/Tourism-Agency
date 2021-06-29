@@ -1,10 +1,10 @@
-client/ClientFX.java
- client.ClientFX
+client/controller/LoginController.java
+ client.controller.LoginController
 client/controller/AgencyController.java
  client.controller.AgencyController
  client.controller.AgencyController$1
  client.controller.AgencyController$2
  client.controller.AgencyController$3
  client.controller.AgencyController$4
-client/controller/LoginController.java
- client.controller.LoginController
+client/ClientFX.java
+ client.ClientFX

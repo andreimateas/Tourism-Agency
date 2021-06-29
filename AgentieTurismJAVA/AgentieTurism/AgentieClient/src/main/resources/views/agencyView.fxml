@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="567.0" prefWidth="1009.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.AgencyController">
+<AnchorPane prefHeight="567.0" prefWidth="1009.0" stylesheets="@../css/style2.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.AgencyController">
    <children>
       <TableView fx:id="excursionsTable" layoutX="22.0" layoutY="152.0" prefHeight="264.0" prefWidth="440.0">
         <columns>
@@ -33,7 +33,7 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <Label layoutX="565.0" layoutY="89.0" text="Tourist attraction" />
+      <Label layoutX="550.0" layoutY="89.0" text="Tourist attraction" />
       <TextField fx:id="attractionText" layoutX="544.0" layoutY="113.0" prefHeight="25.0" prefWidth="133.0" />
       <Label layoutX="773.0" layoutY="89.0" text="Departure time interval" />
        <Spinner fx:id="spinner1" editable="true" layoutX="706.0" layoutY="113.0" prefHeight="25.0" prefWidth="53.0">

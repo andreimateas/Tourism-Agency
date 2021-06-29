@@ -347,3 +347,39 @@
 29 Jun 2021 10:34:50,078 TRACE repository.DbUtils 45 getConnection - Enter
 29 Jun 2021 10:34:50,078 TRACE repository.DbUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@13d50801)
 29 Jun 2021 10:34:50,078 TRACE repository.ExcursionDBRepository 57 filterAttractionTime - Exit with([Excursion{touristAttraction='londra', transportationCompany='wizz', departureTime=22:30, price=300.0, availableSeats=177}, Excursion{touristAttraction='londra', transportationCompany='wizz', departureTime=20:29, price=400.0, availableSeats=116}])
+29 Jun 2021 22:05:48,362 TRACE repository.AgencyEmployeeDBRepository 25 findByUsername - Enter
+29 Jun 2021 22:05:48,365 TRACE repository.DbUtils 45 getConnection - Enter
+29 Jun 2021 22:05:48,365 TRACE repository.DbUtils 23 getNewConnection - Enter
+29 Jun 2021 22:05:48,450 TRACE repository.DbUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10179715)
+29 Jun 2021 22:05:48,453 TRACE repository.AgencyEmployeeDBRepository 44 findByUsername - Exit with(AgencyEmployee{username='ion3', password='ion3', agencyName='a1'})
+29 Jun 2021 22:05:54,136 TRACE repository.AgencyEmployeeDBRepository 25 findByUsername - Enter
+29 Jun 2021 22:05:54,136 TRACE repository.DbUtils 45 getConnection - Enter
+29 Jun 2021 22:05:54,137 TRACE repository.DbUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10179715)
+29 Jun 2021 22:05:54,137 TRACE repository.AgencyEmployeeDBRepository 44 findByUsername - Exit with(AgencyEmployee{username='ion3', password='ion3', agencyName='a1'})
+29 Jun 2021 22:05:54,251 TRACE repository.ExcursionDBRepository 79 findAll - Enter
+29 Jun 2021 22:05:54,251 TRACE repository.DbUtils 45 getConnection - Enter
+29 Jun 2021 22:05:54,251 TRACE repository.DbUtils 23 getNewConnection - Enter
+29 Jun 2021 22:05:54,252 TRACE repository.DbUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a3634df)
+29 Jun 2021 22:05:54,305 TRACE repository.ExcursionDBRepository 100 findAll - Exit with([Excursion{touristAttraction='londra', transportationCompany='wizz', departureTime=22:30, price=300.0, availableSeats=177}, Excursion{touristAttraction='londra', transportationCompany='wizz', departureTime=20:29, price=400.0, availableSeats=116}, Excursion{touristAttraction='madrid', transportationCompany='tarom', departureTime=21:00, price=500.0, availableSeats=15}, Excursion{touristAttraction='madrid', transportationCompany='tarom', departureTime=19:30, price=500.0, availableSeats=450}, Excursion{touristAttraction='paris', transportationCompany='wizz', departureTime=21:30, price=300.0, availableSeats=8}, Excursion{touristAttraction='paris', transportationCompany='wizz', departureTime=19:45, price=250.0, availableSeats=59}])
+29 Jun 2021 22:05:54,312 TRACE repository.ExcursionDBRepository 29 filterAttractionTime - Enter
+29 Jun 2021 22:05:54,313 TRACE repository.DbUtils 45 getConnection - Enter
+29 Jun 2021 22:05:54,313 TRACE repository.DbUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a3634df)
+29 Jun 2021 22:05:54,313 TRACE repository.ExcursionDBRepository 57 filterAttractionTime - Exit with([])
+29 Jun 2021 22:18:32,239 TRACE repository.AgencyEmployeeDBRepository 25 findByUsername - Enter
+29 Jun 2021 22:18:32,242 TRACE repository.DbUtils 45 getConnection - Enter
+29 Jun 2021 22:18:32,243 TRACE repository.DbUtils 23 getNewConnection - Enter
+29 Jun 2021 22:18:32,312 TRACE repository.DbUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49f0030d)
+29 Jun 2021 22:18:32,316 TRACE repository.AgencyEmployeeDBRepository 44 findByUsername - Exit with(AgencyEmployee{username='ion3', password='ion3', agencyName='a1'})
+29 Jun 2021 22:18:32,425 TRACE repository.ExcursionDBRepository 79 findAll - Enter
+29 Jun 2021 22:18:32,425 TRACE repository.DbUtils 45 getConnection - Enter
+29 Jun 2021 22:18:32,426 TRACE repository.DbUtils 23 getNewConnection - Enter
+29 Jun 2021 22:18:32,426 TRACE repository.DbUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@657aca83)
+29 Jun 2021 22:18:32,434 TRACE repository.ExcursionDBRepository 100 findAll - Exit with([Excursion{touristAttraction='londra', transportationCompany='wizz', departureTime=22:30, price=300.0, availableSeats=177}, Excursion{touristAttraction='londra', transportationCompany='wizz', departureTime=20:29, price=400.0, availableSeats=116}, Excursion{touristAttraction='madrid', transportationCompany='tarom', departureTime=21:00, price=500.0, availableSeats=15}, Excursion{touristAttraction='madrid', transportationCompany='tarom', departureTime=19:30, price=500.0, availableSeats=450}, Excursion{touristAttraction='paris', transportationCompany='wizz', departureTime=21:30, price=300.0, availableSeats=8}, Excursion{touristAttraction='paris', transportationCompany='wizz', departureTime=19:45, price=250.0, availableSeats=59}])
+29 Jun 2021 22:18:32,441 TRACE repository.ExcursionDBRepository 29 filterAttractionTime - Enter
+29 Jun 2021 22:18:32,442 TRACE repository.DbUtils 45 getConnection - Enter
+29 Jun 2021 22:18:32,442 TRACE repository.DbUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@657aca83)
+29 Jun 2021 22:18:32,442 TRACE repository.ExcursionDBRepository 57 filterAttractionTime - Exit with([])
+29 Jun 2021 22:18:41,492 TRACE repository.ExcursionDBRepository 29 filterAttractionTime - Enter
+29 Jun 2021 22:18:41,492 TRACE repository.DbUtils 45 getConnection - Enter
+29 Jun 2021 22:18:41,492 TRACE repository.DbUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@657aca83)
+29 Jun 2021 22:18:41,493 TRACE repository.ExcursionDBRepository 57 filterAttractionTime - Exit with([])
